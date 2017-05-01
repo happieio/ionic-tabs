@@ -3,18 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
+import { Demos } from '../pages/demos/controller';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { DeviceMotion } from '@ionic-native/device-motion';
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
+    Demos,
     ContactPage,
     HomePage,
     TabsPage
@@ -26,7 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
+    Demos,
     ContactPage,
     HomePage,
     TabsPage
@@ -34,6 +35,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    DeviceMotion,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
