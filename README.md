@@ -40,3 +40,5 @@ just run typescript complication, to check for errors(run from project root)
     ./node_modules/.bin/tsc
     
     
+https://github.com/ananthakumaran/tide
+    
