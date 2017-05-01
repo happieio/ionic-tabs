@@ -21,6 +21,8 @@
 		3B17349543504AA2804F57C4 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F088C18B4F48E498BE3C45 /* CDVViewController+SplashScreen.m */; };
 		2E4926DE44444D988A03D8D3 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 428DC826BA45488CBB848122 /* CDVStatusBar.m */; };
 		53304D88F21F48929FDCA546 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8ADA300CCA4A19BEB491A6 /* IonicKeyboard.m */; };
+		8FBA5EFF1F7C4F56A249DE16 /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EF0F51DCF64D3492B331BA /* CDVAccelerometer.m */; };
+		AB5ECA37CF9C4D04B10A5E9E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823C98C7BEC428F9484F863 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,9 @@
 		08C701D5F6A444FA81D3ABC1 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		9E8ADA300CCA4A19BEB491A6 /* IonicKeyboard.m */ = {isa = PBXFileReference; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		9336A850B13F4232BE9E0137 /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F7EF0F51DCF64D3492B331BA /* CDVAccelerometer.m */ = {isa = PBXFileReference; name = "CDVAccelerometer.m"; path = "cordova-plugin-device-motion/CDVAccelerometer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9E3381F5C898440E959F8D68 /* CDVAccelerometer.h */ = {isa = PBXFileReference; name = "CDVAccelerometer.h"; path = "cordova-plugin-device-motion/CDVAccelerometer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9823C98C7BEC428F9484F863 /* CoreMotion.framework */ = {isa = PBXFileReference; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				AB5ECA37CF9C4D04B10A5E9E /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +155,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9823C98C7BEC428F9484F863 /* CoreMotion.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,6 +193,8 @@
 				08C701D5F6A444FA81D3ABC1 /* CDVStatusBar.h */,
 				9E8ADA300CCA4A19BEB491A6 /* IonicKeyboard.m */,
 				9336A850B13F4232BE9E0137 /* IonicKeyboard.h */,
+				F7EF0F51DCF64D3492B331BA /* CDVAccelerometer.m */,
+				9E3381F5C898440E959F8D68 /* CDVAccelerometer.h */,
 			);
 			name = Plugins;
 			path = "app/Plugins";
@@ -306,6 +315,7 @@
 				3B17349543504AA2804F57C4 /* CDVViewController+SplashScreen.m in Sources */,
 				2E4926DE44444D988A03D8D3 /* CDVStatusBar.m in Sources */,
 				53304D88F21F48929FDCA546 /* IonicKeyboard.m in Sources */,
+				8FBA5EFF1F7C4F56A249DE16 /* CDVAccelerometer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
