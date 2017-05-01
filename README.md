@@ -21,6 +21,7 @@ Run the following commands
     
 install tide
 etc/emacs24/package.el add 
+https://github.com/ananthakumaran/tide
 
 #### add project to ionic io
     ionic io init
@@ -40,5 +41,5 @@ just run typescript complication, to check for errors(run from project root)
     ./node_modules/.bin/tsc
     
     
-https://github.com/ananthakumaran/tide
+
     
