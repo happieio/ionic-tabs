@@ -1,5 +1,6 @@
 # ionic-tabs
-###Pocket Chip Setup Instructions
+
+### Pocket Chip Setup Instructions
 
 - Create ionic.io account [here](https://apps.ionic.io/signup)
 - Create github account [here](https://github.com/join)
