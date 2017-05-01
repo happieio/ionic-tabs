@@ -17,4 +17,5 @@ Run the following commands
     git clone https://github.com/atom/atom ... cd atom ... sudo script/build --create-debian-package
     cd ~/ ... git clones https://github.com/happieio/ionic-tabs
     cd ionic-tabs ... sudo npm rebuild node-sass
+    sudo apt-get install emacs
     
