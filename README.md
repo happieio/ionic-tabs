@@ -19,3 +19,24 @@ Run the following commands
     cd ionic-tabs ... sudo npm rebuild node-sass
     sudo apt-get install emacs
     
+install tide
+etc/emacs24/package.el add 
+
+#### add project to ionic io
+    ionic io init
+    ionic upload
+    
+    
+    
+    
+### Useful Commands
+
+fully compile the app and prep for upload
+    
+    npm run build
+
+just run typescript complication, to check for errors(run from project root)
+    
+    ./node_modules/.bin/tsc
+    
+    
