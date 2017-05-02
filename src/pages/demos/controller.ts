@@ -18,7 +18,7 @@ export class Demos {
   }
 
   ionViewDidEnter(){
-    this.motion_sub = this.deviceMotion.watchAcceleration().subscribe((acceleration: DeviceMotionAccelerationData) => {
+    this.motion_sub = this.deviceMotion.watchAcceleration({frequency: 500}).subscribe((acceleration: DeviceMotionAccelerationData) => {
       this.read_x = acceleration.x;
       this.read_y = acceleration.y;
       this.read_z = acceleration.z;

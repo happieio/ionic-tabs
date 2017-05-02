@@ -55672,7 +55672,7 @@ var Demos = (function () {
     }
     Demos.prototype.ionViewDidEnter = function () {
         var _this = this;
-        this.motion_sub = this.deviceMotion.watchAcceleration().subscribe(function (acceleration) {
+        this.motion_sub = this.deviceMotion.watchAcceleration({ frequency: 500 }).subscribe(function (acceleration) {
             _this.read_x = acceleration.x;
             _this.read_y = acceleration.y;
             _this.read_z = acceleration.z;
@@ -55687,9 +55687,10 @@ Demos = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
         selector: 'demos',template:/*ion-inline-start:"/Users/jobnimbus/happie/ionic-tabs/src/pages/demos/view.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <h3>Accelerometer Demo</h3>\n\n  <div>X: {{read_x}} </div><div>Y: {{read_y}} </div><div>Z: {{read_z}} </div>\n\n</ion-content>\n'/*ion-inline-end:"/Users/jobnimbus/happie/ionic-tabs/src/pages/demos/view.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_device_motion__["a" /* DeviceMotion */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_device_motion__["a" /* DeviceMotion */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_device_motion__["a" /* DeviceMotion */]) === "function" && _b || Object])
 ], Demos);
 
+var _a, _b;
 //# sourceMappingURL=controller.js.map
 
 /***/ }),
