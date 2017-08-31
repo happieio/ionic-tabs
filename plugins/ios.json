@@ -24,9 +24,6 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "io.ionic.starter"
-        },
-        "cordova-plugin-device-motion": {
-            "PACKAGE_NAME": "com.ionicframework.app425468"
         }
     },
     "dependent_plugins": {}
