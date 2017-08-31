@@ -14,10 +14,12 @@ Run the following commands
     sudo npm install ionic -g
     sudo apt-get install git
     cd ~/ ... mkdir Apps ... cd Apps ... 
-    [optional] git clone https://github.com/atom/atom.git ... cd atom ... sudo script/build --create-debian-package
     cd ~/ ... git clone https://github.com/happieio/ionic-tabs.git
     cd ionic-tabs ... sudo npm rebuild node-sass
     sudo apt-get install emacs
+    
+    //may need to run
+    sudo npm install caniuse-lite
     
 install tide
 etc/emacs24/package.el add 
@@ -31,6 +33,10 @@ https://github.com/ananthakumaran/tide
     
     
 ### Useful Commands
+
+start a web server in a directory
+    
+    python -m SimpleHTTPServer 8000
 
 fully compile the app and prep for upload
     
