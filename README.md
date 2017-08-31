@@ -14,8 +14,8 @@ Run the following commands
     sudo npm install ionic -g
     sudo apt-get install git
     cd ~/ ... mkdir Apps ... cd Apps ... 
-    git clone https://github.com/atom/atom ... cd atom ... sudo script/build --create-debian-package
-    cd ~/ ... git clones https://github.com/happieio/ionic-tabs
+    [optional] git clone https://github.com/atom/atom.git ... cd atom ... sudo script/build --create-debian-package
+    cd ~/ ... git clone https://github.com/happieio/ionic-tabs.git
     cd ionic-tabs ... sudo npm rebuild node-sass
     sudo apt-get install emacs
     
